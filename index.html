@@ -5,72 +5,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home / X</title>
-    <link rel="icon"
-        href="https://imgs.search.brave.com/3oqYYVmqZ_w4jFgZJg9mhh1BRdL4Qvj7sTizUnfjVYU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvNTAwcC8z/MS8yNS94LWxvZ28t/cmVjdGFuZ2xlLXR3/aXR0ZXItdmVjdG9y/LTUwNjkzMTI1Lmpw/Zw">
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="/src/output.css" />
 </head>
 
 <body class="bg-zinc-950 text-white">
     <div class="flex mx-auto">
-        <div class="first w-[70%] m-auto ">
+        <div class="first w-[70%] m-auto h-screen relative">
+            <!-- Logo -->
             <div class="logo invert my-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                    <g>
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                        </path>
-                    </g>
-                </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"
+                class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                <g>
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                  </path>
+                </g>
+              </svg>
             </div>
+        
+            <!-- Sidebar Menu -->
             <div class="sidebar flex justify-end">
-                <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> home </span>
-                        Home
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> search </span>Explore
-                    </li>
-
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> notifications </span>
-                        Notifications
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> message </span>Messages
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> smart_toy </span>Grok
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> group </span>Communities
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> paid </span>Premium
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> person </span>Profile
-                    </li>
-                    <li
-                        class="flex justify-start items-center  px-5 py-2 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl"> more_vert </span>More
-                    </li>
-                </ul>
+              <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">home</span>Home
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">search</span>Explore
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">notifications</span>Notifications
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">message</span>Messages
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">smart_toy</span>Grok
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">group</span>Communities
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">paid</span>Premium
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">person</span>Profile
+                </li>
+                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                  <span class="material-symbols-outlined text-2xl">more_vert</span>More
+                </li>
+                <li>
+                  <button class="bg-white text-black py-3 rounded-full px-20 text-sm font-semibold">Post</button>
+                </li>
+              </ul>
             </div>
-        </div>
+        
+            <!-- Profile Bottom -->
+            <div class="btm flex justify-center items-center gap-3 absolute bottom-3 left-32">
+              <img width="40" height="40" class="rounded-full"
+                src="https://pbs.twimg.com/profile_images/1738933607409020928/8dGjsJ6-_bigger.jpg" alt="" />
+              <div>
+                <div class="font-bold">Aryan</div>
+                <div class="text-slate-500">@Aryan</div>
+              </div>
+              <span class="absolute left-40 material-symbols-outlined">more_horiz</span>
+            </div>
+          </div>
         <div class="second w-[120%] border-[1px] border-x-slate-800 border-y-black">
             <div class="top flex ">
-                <div class="left w-full  flex justify-center font-bold py-4 text-sm">For You</div>
+                <div class="left w-full  flex justify-center font-bold py-6 text-sm">For You</div>
                 <div class="right w-full text-slate-500  flex justify-center font-bold py-4 text-sm">Follwing</div>
             </div>
             <div class="w-full h-[0.2px] bg-slate-800 relative">
@@ -97,20 +101,20 @@
                 <!-- Logos -->
                 <div class="flex gap-2  items-center justify-between w-[80%] m-auto">
                     <div class="logos flex gap-4 text-blue-400">
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined cursor-pointer">
                             image
                         </span>
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined cursor-pointer">
                             gif_2
                         </span>
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined cursor-pointer">
                             smart_toy
                         </span>
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined cursor-pointer">
                             sentiment_satisfied
-                        </span><span class="material-symbols-outlined">
+                        </span><span class="material-symbols-outlined cursor-pointer">
                             schedule
-                        </span><span class="material-symbols-outlined">
+                        </span><span class="material-symbols-outlined cursor-pointer">
                             location_on
                         </span>
                     </div>
@@ -120,6 +124,67 @@
                 </div>
             </div>
             <div class="w-full h-[0.8px] bg-slate-800 my-2">
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex justify-start items-center mx-4 gap-2 px-2">
+                        <div class="primg">
+                            <img class="rounded-full" width="25" height="25"
+                                src="https://imgs.search.brave.com/8JKP12fhwriIMHCgkz90f23GKrYhpuL-LqvOQ4K8VfA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc0NjIy/MDIuanBn"
+                                alt="">
+                        </div>
+                        <div class="content gap-3 flex  justify-center items-center">
+                            <span class="font-bold hover:underline cursor-pointer ">Royal Challengers Bengaluru
+                            </span>
+                            <span class="text-slate-600 text-sm">@RCBTweets
+                            </span>
+                            <span class="text-slate-600 text-sm">13h</span>
+                        </div>
+
+                    </div>
+
+                    <div class="postimg flex  flex-col justify-start items-center mx-4 gap-2 px-2">
+                        <!-- <span class='self-start px-8 '>This headgear suits you better, King. 👑</span> -->
+                        <div class="img ">
+                            <img height="500" width="500" class=" rounded-3xl outline outline-[0.5px] outline-slate-800"
+                                src="https://pbs.twimg.com/media/GpUeU2iawAA541A?format=jpg&name=small" alt="">
+
+                        </div>
+                        <div class="icons flex w-full items-center justify-around px-0  text-slate-600 py-2">
+                            <span class="material-symbols-outlined">
+                                chat_bubble
+                            </span>
+
+                            <span class="material-symbols-outlined">
+                                autorenew
+                            </span>
+
+                            <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+
+                            <span class="material-symbols-outlined">
+                                bar_chart
+                            </span>
+
+                            <div class="flex justify-center items-center gap-3">
+                                <span class="material-symbols-outlined">
+                                    bookmark
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    ios_share
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-[0.8px] bg-slate-800 my-2">
+                </div>
+
+                
+
+                
+                
             </div>
         </div>
         <div class="third w-full">
@@ -148,20 +213,20 @@
 
                 <div class="flex flex-col py-2">
                     <span class="text-sm text-slate-600">Trending in India</span>
-                    <span class="font-bold">Arabian Sea</span>
-                    <span class="text-sm text-slate-600">1,623 posts</span>
+                    <span class="font-bold">#LineOfControl</span>
+                    <span class="text-sm text-slate-600">16,623 posts</span>
                 </div>
 
                 <div class="flex flex-col py-2">
                     <span class="text-sm text-slate-600">Trending in India</span>
-                    <span class="font-bold">Arabian Sea</span>
-                    <span class="text-sm text-slate-600">1,623 posts</span>
+                    <span class="font-bold">भारत सरकार</span>
+                    <span class="text-sm text-slate-600">13,033 posts</span>
                 </div>
 
                 <div class="flex flex-col py-2">
                     <span class="text-sm text-slate-600">Trending in India</span>
-                    <span class="font-bold">Arabian Sea</span>
-                    <span class="text-sm text-slate-600">1,623 posts</span>
+                    <span class="font-bold">Indian Navy</span>
+                    <span class="text-sm text-slate-600">11,223 posts</span>
                 </div>
             </div>
 
@@ -181,11 +246,10 @@
                     </div>
                 </div>
 
+
+
             </div>
-
-
         </div>
-    </div>
 </body>
 
 </html>
