@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .bottom-3 {
   bottom: 0.75rem;
 }
@@ -576,6 +580,10 @@ video {
 
 .left-40 {
   left: 10rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .m-2 {
@@ -610,6 +618,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-1 {
   height: 0.25rem;
 }
@@ -624,14 +636,6 @@ video {
 
 .h-\[0\.8px\] {
   height: 0.8px;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .h-screen {
@@ -954,4 +958,20 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:border-l-current {
+    border-left-color: currentColor;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
 }

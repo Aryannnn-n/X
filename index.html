@@ -12,66 +12,77 @@
 
 <body class="bg-zinc-950 text-white">
     <div class="flex mx-auto">
-        <div class="first w-[70%] m-auto h-screen relative">
+        <div class="first w-[70%] m-auto h-screen relative hidden md:block">
             <!-- Logo -->
             <div class="logo invert my-4">
-              <svg viewBox="0 0 24 24" aria-hidden="true"
-                class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                <g>
-                  <path
-                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                  </path>
-                </g>
-              </svg>
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
             </div>
-        
+
             <!-- Sidebar Menu -->
-            <div class="sidebar flex justify-end">
-              <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">home</span>Home
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">search</span>Explore
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">notifications</span>Notifications
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">message</span>Messages
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">smart_toy</span>Grok
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">group</span>Communities
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">paid</span>Premium
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">person</span>Profile
-                </li>
-                <li class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
-                  <span class="material-symbols-outlined text-2xl">more_vert</span>More
-                </li>
-                <li>
-                  <button class="bg-white text-black py-3 rounded-full px-20 text-sm font-semibold">Post</button>
-                </li>
-              </ul>
+            <div class="sidebar flex justify-end ">
+                <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">home</span><span>Home</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">search</span>Explore
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">notifications</span>Notifications
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">message</span>Messages
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">smart_toy</span>Grok
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">group</span>Communities
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">paid</span>Premium
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">person</span>Profile
+                    </li>
+                    <li
+                        class="flex justify-start items-center px-5 py-1 text-xl gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-2xl">more_vert</span>More
+                    </li>
+                    <li>
+                        <button class="bg-white text-black py-3 rounded-full px-20 text-sm font-semibold">Post</button>
+                    </li>
+                </ul>
             </div>
-        
+
             <!-- Profile Bottom -->
-            <div class="btm flex justify-center items-center gap-3 absolute bottom-3 left-32">
-              <img width="40" height="40" class="rounded-full"
-                src="https://pbs.twimg.com/profile_images/1738933607409020928/8dGjsJ6-_bigger.jpg" alt="" />
-              <div>
-                <div class="font-bold">Aryan</div>
-                <div class="text-slate-500">@Aryan</div>
-              </div>
-              <span class="absolute left-40 material-symbols-outlined">more_horiz</span>
+            <div class="hidden lg:block">
+                <div class="btm flex justify-center items-center gap-3 absolute bottom-3 left-32 ">
+                    <img width="40" height="40" class="rounded-full "
+                        src="https://pbs.twimg.com/profile_images/1738933607409020928/8dGjsJ6-_bigger.jpg" alt="" />
+                    <div>
+                        <div class="font-bold">Aryan</div>
+                        <div class="text-slate-500">@Aryan</div>
+                    </div>
+                    <span class="absolute left-40 material-symbols-outlined">more_horiz</span>
+                </div>
             </div>
-          </div>
+        </div>
         <div class="second w-[120%] border-[1px] border-x-slate-800 border-y-black">
             <div class="top flex ">
                 <div class="left w-full  flex justify-center font-bold py-6 text-sm">For You</div>
@@ -181,13 +192,12 @@
                 <div class="w-full h-[0.8px] bg-slate-800 my-2">
                 </div>
 
-                
 
-                
-                
+
+
             </div>
         </div>
-        <div class="third w-full">
+        <div class="third w-full hidden lg:block">
             <div class="search">
 
                 <input
